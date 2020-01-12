@@ -11,7 +11,7 @@
         android:layout_height="100dp">
 
 
-        <LinearLayout
+        <android.support.design.widget.CoordinatorLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -26,7 +26,7 @@
                 app:title="@string/app_name"
                 app:titleTextColor="@color/title"></android.support.v7.widget.Toolbar>
 
-        </LinearLayout>
+        </android.support.design.widget.CoordinatorLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +47,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background"
-        android:paddingTop="10dp"
         android:visibility="visible"
         app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
 
@@ -59,7 +58,8 @@
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/password_list"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

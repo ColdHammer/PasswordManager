@@ -55,44 +55,24 @@
             android:textColor="@color/fore_color_heavy" />
 
         <TextView
-            android:id="@+id/txt_name"
+            android:id="@+id/txt_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_marginEnd="5dp"
             android:layout_marginStart="5dp"
-            android:text="@string/name"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="7dp"
+            android:text="@string/email"
             android:textColor="@color/fore_color_heavy" />
 
         <EditText
-            android:id="@+id/et_name"
+            android:id="@+id/et_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:layout_marginBottom="15dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginStart="5dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:textColor="@color/fore_color_heavy" />
-
-        <TextView
-            android:id="@+id/txt_lastname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginStart="5dp"
-            android:text="@string/lastname"
-            android:textColor="@color/fore_color_heavy" />
-
-        <EditText
-            android:id="@+id/et_lastname"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_marginEnd="5dp"
-            android:layout_marginStart="5dp"
-            android:ems="10"
+            android:imeOptions="actionDone"
             android:inputType="textPersonName"
             android:textColor="@color/fore_color_heavy" />
 
@@ -148,24 +128,44 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/txt_email"
+            android:id="@+id/txt_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="7dp"
-            android:layout_marginEnd="5dp"
             android:layout_marginStart="5dp"
-            android:text="@string/email"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="7dp"
+            android:text="@string/name"
             android:textColor="@color/fore_color_heavy" />
 
         <EditText
-            android:id="@+id/et_email"
+            android:id="@+id/et_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"
-            android:layout_marginEnd="5dp"
             android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
             android:ems="10"
-            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:textColor="@color/fore_color_heavy" />
+
+        <TextView
+            android:id="@+id/txt_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="7dp"
+            android:text="@string/lastname"
+            android:textColor="@color/fore_color_heavy" />
+
+        <EditText
+            android:id="@+id/et_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"
+            android:ems="10"
             android:inputType="textPersonName"
             android:textColor="@color/fore_color_heavy" />
 
